@@ -1,0 +1,14 @@
+[Unit]
+Description=Show local IP address on Sense Hat
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ardaninho
+ExecStart=/usr/sbin/show_ip.py
+
+[Install]
+WantedBy=multi-user.target
