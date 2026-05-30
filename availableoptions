@@ -1,0 +1,7 @@
+local ip -- 1
+public ip -- 2
+ram usage -- 3
+cpu temp -- 4
+disk usage -- 5
+poweroff -- 6
+restart -- 7
